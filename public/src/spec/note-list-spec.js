@@ -3,6 +3,7 @@ function testEmptyNoteList() {
 };
 
 testEmptyNoteList()
+ID.reset()
 
 function testAddToList() {
   note_list = new NoteList();
@@ -12,3 +13,4 @@ function testAddToList() {
 };
 
 testAddToList()
+ ID.reset()
